@@ -33,9 +33,11 @@ This formula returns the parameter vector used for prediction.
 To measure how well the model fits the data, we use two metrics:
 
 - $R^2$: the proportion of variance in the target explained by the model compared to a constant prediction (the mean).
-- $$ R^2=1-\frac{\sum_{1}^{n}(y_i-\hat{y}_i)^2}{\sum_{1}^{n}(y_i-\bar{y}_i)^2}$$
+
+$$ R^2=1-\frac{\sum_{1}^{n}(y_i-\hat{y}_i)^2}{\sum_{1}^{n}(y_i-\bar{y}_i)^2}$$
 
 - $RMSE$ (Root Mean Square Error): measures the average difference between predictions and true values. Lower is better.
+
 $$RMSE=\sqrt{\frac{\sum_{1}^{n}(y_i-\hat{y}_i)^2}{n}}$$
 
 Where:
