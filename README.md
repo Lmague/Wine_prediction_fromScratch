@@ -180,7 +180,7 @@ Metrics used: Accuracy and Loss. Results obtained:
 
 Evolution of scores during training:
 
-![score evolution during the epochs](images/output_NeuralNetwork.png)
+![score evolution during the epochs](Images/output_NeuralNetwork.png)
 
 | Model             | Metrics                          |
 | ----------------- | -------------------------------- |
